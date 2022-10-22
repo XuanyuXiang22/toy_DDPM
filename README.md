@@ -23,7 +23,7 @@ python dataset.py
 
 将显示将要学习的点集分布，也是我们的训练数据集：
 
-![show_dataset](doc\show_dataset.jpg)
+![show_dataset](doc/show_dataset.jpg)
 
 扩散过程可视化：
 
@@ -33,7 +33,7 @@ python utils.py
 
 显示正向扩散过程 $q(x_t|x_0)$ 的图示：
 
-![show_diffusion](doc\show_diffusion.jpg)
+![show_diffusion](doc/show_diffusion.jpg)
 
 # 训练
 
@@ -45,7 +45,7 @@ python train.py
 
 训练的中间可视化结果保存在目录 checkpoints_dir/name 下，每训练 fig_save_freq 代保存一次反向扩散的预测图示，如下图是训练 3900 代后的分布拟合结果：
 
-![3900](doc\3900.jpg)
+![3900](doc/3900.jpg)
 
 
 
